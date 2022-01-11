@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B07E770BFA9F8CC5478679 /* Pods_DZ_455.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7778AD263903BC1D305ADD28 /* Pods_DZ_455.framework */; };
 		CEC91D32278D3AA2007BBB76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC91D31278D3AA2007BBB76 /* AppDelegate.swift */; };
 		CEC91D34278D3AA2007BBB76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC91D33278D3AA2007BBB76 /* SceneDelegate.swift */; };
 		CEC91D36278D3AA2007BBB76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC91D35278D3AA2007BBB76 /* ViewController.swift */; };
 		CEC91D39278D3AA2007BBB76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC91D37278D3AA2007BBB76 /* Main.storyboard */; };
 		CEC91D3B278D3AA5007BBB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC91D3A278D3AA5007BBB76 /* Assets.xcassets */; };
 		CEC91D3E278D3AA5007BBB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC91D3C278D3AA5007BBB76 /* LaunchScreen.storyboard */; };
+		CEC91D46278D3B11007BBB76 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC91D45278D3B11007BBB76 /* ContactCell.swift */; };
+		CEC91D48278D3B1F007BBB76 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC91D47278D3B1F007BBB76 /* ContactModel.swift */; };
+		CEC91D4A278D43D1007BBB76 /* CustonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC91D49278D43D1007BBB76 /* CustonButton.swift */; };
+		CEC91D4C278D47B6007BBB76 /* AddContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC91D4B278D47B6007BBB76 /* AddContact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7778AD263903BC1D305ADD28 /* Pods_DZ_455.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZ_455.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB3D82FF8E285CD0BFA320B /* Pods-DZ-455.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ-455.release.xcconfig"; path = "Target Support Files/Pods-DZ-455/Pods-DZ-455.release.xcconfig"; sourceTree = "<group>"; };
+		B6A2B16A4359A53ED112E2CD /* Pods-DZ-455.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ-455.debug.xcconfig"; path = "Target Support Files/Pods-DZ-455/Pods-DZ-455.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC91D2E278D3AA2007BBB76 /* DZ-455.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ-455.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC91D31278D3AA2007BBB76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC91D33278D3AA2007BBB76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		CEC91D3A278D3AA5007BBB76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC91D3D278D3AA5007BBB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC91D3F278D3AA5007BBB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC91D45278D3B11007BBB76 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		CEC91D47278D3B1F007BBB76 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		CEC91D49278D43D1007BBB76 /* CustonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonButton.swift; sourceTree = "<group>"; };
+		CEC91D4B278D47B6007BBB76 /* AddContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B07E770BFA9F8CC5478679 /* Pods_DZ_455.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A4081CB2C2200DE48E82186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7778AD263903BC1D305ADD28 /* Pods_DZ_455.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9772DFB179F6718199654D11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6A2B16A4359A53ED112E2CD /* Pods-DZ-455.debug.xcconfig */,
+				7AB3D82FF8E285CD0BFA320B /* Pods-DZ-455.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CEC91D25278D3AA2007BBB76 = {
 			isa = PBXGroup;
 			children = (
 				CEC91D30278D3AA2007BBB76 /* DZ-455 */,
 				CEC91D2F278D3AA2007BBB76 /* Products */,
+				9772DFB179F6718199654D11 /* Pods */,
+				5A4081CB2C2200DE48E82186 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +95,10 @@
 				CEC91D3A278D3AA5007BBB76 /* Assets.xcassets */,
 				CEC91D3C278D3AA5007BBB76 /* LaunchScreen.storyboard */,
 				CEC91D3F278D3AA5007BBB76 /* Info.plist */,
+				CEC91D45278D3B11007BBB76 /* ContactCell.swift */,
+				CEC91D47278D3B1F007BBB76 /* ContactModel.swift */,
+				CEC91D49278D43D1007BBB76 /* CustonButton.swift */,
+				CEC91D4B278D47B6007BBB76 /* AddContact.swift */,
 			);
 			path = "DZ-455";
 			sourceTree = "<group>";
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC91D42278D3AA5007BBB76 /* Build configuration list for PBXNativeTarget "DZ-455" */;
 			buildPhases = (
+				CF158D333E62566CF57182CB /* [CP] Check Pods Manifest.lock */,
 				CEC91D2A278D3AA2007BBB76 /* Sources */,
 				CEC91D2B278D3AA2007BBB76 /* Frameworks */,
 				CEC91D2C278D3AA2007BBB76 /* Resources */,
+				CB3B05134F9240B5EEA5CD2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +170,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB3B05134F9240B5EEA5CD2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ-455/Pods-DZ-455-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DZ-455/Pods-DZ-455-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DZ-455/Pods-DZ-455-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF158D333E62566CF57182CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DZ-455-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEC91D2A278D3AA2007BBB76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEC91D36278D3AA2007BBB76 /* ViewController.swift in Sources */,
+				CEC91D4C278D47B6007BBB76 /* AddContact.swift in Sources */,
 				CEC91D32278D3AA2007BBB76 /* AppDelegate.swift in Sources */,
+				CEC91D46278D3B11007BBB76 /* ContactCell.swift in Sources */,
+				CEC91D4A278D43D1007BBB76 /* CustonButton.swift in Sources */,
 				CEC91D34278D3AA2007BBB76 /* SceneDelegate.swift in Sources */,
+				CEC91D48278D3B1F007BBB76 /* ContactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +367,7 @@
 		};
 		CEC91D43278D3AA5007BBB76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A2B16A4359A53ED112E2CD /* Pods-DZ-455.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +386,7 @@
 		};
 		CEC91D44278D3AA5007BBB76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB3D82FF8E285CD0BFA320B /* Pods-DZ-455.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
